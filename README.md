@@ -141,4 +141,8 @@ Example response:
 
 ## License
 
-ISC
+[MIT](LICENSE)
+
+## Author
+
+&copy; Anthony Lim
