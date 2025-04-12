@@ -36,7 +36,12 @@ cp .env.example .env
 Edit the `.env` file to configure:
 
 - `PORT`: The port on which the server will run (default: 3000)
-- `EXCHANGE_API_KEY`: Your API key for the exchange rate service (optional for some providers)
+- `EXCHANGE_API_KEY`: Your API key for the exchange rate service (optional)
+
+**Note about API Keys:**
+- The server will work without an API key using free public APIs
+- For testing purposes, you can leave the `EXCHANGE_API_KEY` empty
+- If the API is unavailable, the server will fall back to mock data
 
 ## Usage
 
